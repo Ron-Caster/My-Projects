@@ -1,5 +1,7 @@
-name: Publish site to GitHub Pages
-
+name: Deploy to GitHub Pages
+uses: actions/deploy-pages@v4
+with:
+    # Add required parameters here
 on:
   push:
     branches:
